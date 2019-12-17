@@ -1,5 +1,6 @@
 package com.dreamtechdesignandstudio.quickquiz1.activity;
 
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -179,6 +180,22 @@ String TAG="123321";
     protected void onSaveInstanceState(Bundle oldInstanceState) {
         super.onSaveInstanceState(oldInstanceState);
         oldInstanceState.clear();
+    }
+
+    @Override
+    public void onBackPressed() {
+        {
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setTitle("Exit");
+            builder.setMessage("Are you Sure ?");
+            builder.setPositiveButton("ok", (dialog, which) -> {
+                finishAffinity();
+                System.exit(0);
+
+            });
+            builder.setNegativeButton("cancel",null );
+            builder.show();
+        }
     }
 
     @OnClick({R.id.sign_in_button})

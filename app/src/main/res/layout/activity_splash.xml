@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/textView5"
         android:layout_centerHorizontal="true"
-        android:text="Largest Vocabulary Practice Platform For IELTS"
+        android:text="কুইজ খেলুন জ্ঞান বাড়ান"
         android:textColor="#FFFFFF"
         android:textSize="16sp" />
 

@@ -359,8 +359,8 @@ addvalue();
                     } catch (IllegalStateException e) {
                         e.printStackTrace();
                     }
-
                     super.onBackPressed();
+
                 }
                 return true;
             case R.id.setting:
@@ -452,7 +452,18 @@ addvalue();
                 } catch (IllegalStateException e) {
                     e.printStackTrace();
                 }
-                super.onBackPressed();
+                {
+                    AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                    builder.setTitle("Exit");
+                    builder.setMessage("Are you Sure ?");
+                    builder.setPositiveButton("ok", (dialog, which) -> {
+                        finishAffinity();
+                        System.exit(0);
+
+                    });
+                    builder.setNegativeButton("cancel",null );
+                    builder.show();
+                }
             }
         }
 

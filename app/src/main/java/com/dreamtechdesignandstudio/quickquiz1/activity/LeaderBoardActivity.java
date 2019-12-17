@@ -141,7 +141,8 @@ public class LeaderBoardActivity extends AppCompatActivity {
             super(itemView);
             serial = itemView.findViewById(R.id.position);
             name = itemView.findViewById(R.id.name);
-            right = itemView.findViewById(R.id.right);
+            right = itemView.findViewById(R.id.score
+            );
             imageView = itemView.findViewById(R.id.image);
             cardView = itemView.findViewById(R.id.card);
 
