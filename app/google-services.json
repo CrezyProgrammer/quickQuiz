@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "588385720913",
+    "firebase_url": "https://quickquiz-9c3b7.firebaseio.com",
+    "project_id": "quickquiz-9c3b7",
+    "storage_bucket": "quickquiz-9c3b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588385720913:android:cb1f0fa648ebbf29017670",
+        "android_client_info": {
+          "package_name": "com.dreamtechdesignandstudio.quickquiz1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588385720913-rr4277dmksjac3kjg4fuk1gde695fudl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dreamtechdesignandstudio.quickquiz1",
+            "certificate_hash": "8ed0f16a9060934bdb3c10d84249aa1b717cfd73"
+          }
+        },
+        {
+          "client_id": "588385720913-dsc9nl2kr3s2olfjhd58r0olg91boqem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpgp2TknOFY7eLmynrHwhUgYI2Xt2uE14"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588385720913-dsc9nl2kr3s2olfjhd58r0olg91boqem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

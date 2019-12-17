@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <!-- app_id -->
+    <string name="app_id" translatable="false">608201364977</string>
+    <!-- package_name -->
+    <string name="package_name" translatable="false">com.cricket.quiz2</string>
+    <!-- achievement achievement_level_1 -->
+    <string name="achievement_achievement_level_1" translatable="false">CgkI8auB3dkREAIQAw</string>
+    <!-- achievement achievement_level_2 -->
+    <string name="achievement_achievement_level_2" translatable="false">CgkI8auB3dkREAIQBA</string>
+    <!-- achievement achievement_level_3 -->
+    <string name="achievement_achievement_level_3" translatable="false">CgkI8auB3dkREAIQBQ</string>
+    <!-- leaderboard Learn Quiz -->
+    <string name="leaderboard_learn_quiz" translatable="false">CgkI8auB3dkREAIQAg</string>
+</resources>
