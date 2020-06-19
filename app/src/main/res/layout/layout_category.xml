@@ -42,14 +42,14 @@
 
 
 
-            <com.dreamtechdesignandstudio.quickquiz1.helper.CircleImageView
+            <com.sobkhobor.jobcircular.helper.CircleImageView
                 android:id="@+id/imgcategory"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_centerInParent="true"
                 android:layout_margin="0.5dp"
                 android:padding="1.5dp"
-                android:src="@drawable/ic_launcher" />
+                android:src="@mipmap/ic_launcher" />
 
         </RelativeLayout>
     </RelativeLayout>

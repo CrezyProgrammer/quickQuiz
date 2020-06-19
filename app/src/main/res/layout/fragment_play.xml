@@ -169,7 +169,7 @@
                         android:layout_weight="1"
                         android:gravity="center">
 
-                        <com.dreamtechdesignandstudio.quickquiz1.helper.CircularProgressIndicator
+                        <com.sobkhobor.jobcircular.helper.CircularProgressIndicator
                             android:id="@+id/progressBarTwo"
                             android:layout_width="@dimen/progress_h_w"
                             android:layout_height="@dimen/progress_h_w"
@@ -316,12 +316,12 @@
                                                 </RelativeLayout>
                                             </ScrollView>
 
-                                            <com.dreamtechdesignandstudio.quickquiz1.helper.TouchImageView
+                                            <com.sobkhobor.jobcircular.helper.TouchImageView
                                                 android:id="@+id/imgQuestion"
                                                 android:layout_width="@dimen/img_width"
                                                 android:layout_height="@dimen/img_height"
                                                 android:layout_centerInParent="true"
-                                                android:src="@drawable/ic_launcher" />
+                                                android:src="@mipmap/ic_launcher" />
 
 
                                             <ProgressBar
@@ -449,7 +449,7 @@
                                                 android:textColor="@color/colorPrimaryDark" />
 
 
-                                            <com.dreamtechdesignandstudio.quickquiz1.helper.CircularProgressIndicator2
+                                            <com.sobkhobor.jobcircular.helper.CircularProgressIndicator2
                                                 android:id="@+id/progress_A"
                                                 android:layout_width="@dimen/circle_progress"
                                                 android:layout_height="@dimen/circle_progress"
@@ -506,7 +506,7 @@
                                                 android:text="@string/answer"
                                                 android:textColor="@color/colorPrimaryDark" />
 
-                                            <com.dreamtechdesignandstudio.quickquiz1.helper.CircularProgressIndicator2
+                                            <com.sobkhobor.jobcircular.helper.CircularProgressIndicator2
                                                 android:id="@+id/progress_B"
                                                 android:layout_width="@dimen/circle_progress"
                                                 android:layout_height="@dimen/circle_progress"
@@ -564,7 +564,7 @@
                                                 android:text="@string/answer"
                                                 android:textColor="@color/colorPrimaryDark" />
 
-                                            <com.dreamtechdesignandstudio.quickquiz1.helper.CircularProgressIndicator2
+                                            <com.sobkhobor.jobcircular.helper.CircularProgressIndicator2
                                                 android:id="@+id/progress_C"
                                                 android:layout_width="@dimen/circle_progress"
                                                 android:layout_height="@dimen/circle_progress"
@@ -623,7 +623,7 @@
                                                 android:text="@string/answer"
                                                 android:textColor="@color/colorPrimaryDark" />
 
-                                            <com.dreamtechdesignandstudio.quickquiz1.helper.CircularProgressIndicator2
+                                            <com.sobkhobor.jobcircular.helper.CircularProgressIndicator2
                                                 android:id="@+id/progress_D"
                                                 android:layout_width="@dimen/circle_progress"
                                                 android:layout_height="@dimen/circle_progress"

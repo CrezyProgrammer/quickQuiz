@@ -217,7 +217,7 @@
                     </LinearLayout>
 
 
-                    <com.dreamtechdesignandstudio.quickquiz1.helper.CircularProgressIndicator2
+                    <com.sobkhobor.jobcircular.helper.CircularProgressIndicator2
                         android:id="@+id/result_progress"
                         android:layout_width="0dp"
                         android:layout_height="@dimen/result_circle"
@@ -305,7 +305,7 @@
                         android:text="@string/play_again"
                         android:textAllCaps="false"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                        android:textColor="@color/colorPrimaryDark"
+                        android:textColor="@color/gray1"
                         android:textStyle="bold" />
                 </androidx.cardview.widget.CardView>
 
@@ -330,7 +330,7 @@
                         android:text="@string/review_answer"
                         android:textAllCaps="false"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                        android:textColor="@color/colorPrimaryDark"
+                        android:textColor="@color/gray1"
                         android:textStyle="bold" />
 
                 </androidx.cardview.widget.CardView>
@@ -356,7 +356,7 @@
                         android:text="@string/share_score"
                         android:textAllCaps="false"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                        android:textColor="@color/colorPrimaryDark"
+                        android:textColor="@color/gray1"
                         android:textStyle="bold" />
                 </androidx.cardview.widget.CardView>
 
@@ -380,7 +380,7 @@
                         android:text="@string/generate_pdf"
                         android:textAllCaps="false"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                        android:textColor="@color/colorPrimaryDark"
+                        android:textColor="@color/gray1"
                         android:textStyle="bold" />
                 </androidx.cardview.widget.CardView>
 
@@ -403,7 +403,7 @@
                         android:text="@string/rateapp"
                         android:textAllCaps="false"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                        android:textColor="@color/colorPrimaryDark"
+                        android:textColor="@color/gray1"
                         android:textStyle="bold" />
                 </androidx.cardview.widget.CardView>
 
@@ -427,7 +427,7 @@
                         android:text="@string/quite"
                         android:textAllCaps="false"
                         android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                        android:textColor="@color/colorPrimaryDark"
+                        android:textColor="@color/gray1"
                         android:textStyle="bold" />
                 </androidx.cardview.widget.CardView>
             </LinearLayout>

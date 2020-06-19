@@ -116,7 +116,7 @@
                     android:gravity="center">
 
 
-                    <com.dreamtechdesignandstudio.quickquiz1.helper.CircularProgressIndicator
+                    <com.sobkhobor.jobcircular.helper.CircularProgressIndicator
                         android:id="@+id/progressBarTwo"
                         android:layout_width="@dimen/progress_h_w"
                         android:layout_height="@dimen/progress_h_w"
@@ -232,12 +232,12 @@
                                             </RelativeLayout>
                                         </ScrollView>
 
-                                        <com.dreamtechdesignandstudio.quickquiz1.helper.TouchImageView
+                                        <com.sobkhobor.jobcircular.helper.TouchImageView
                                             android:id="@+id/imgQuestion"
                                             android:layout_width="@dimen/img_width"
                                             android:layout_height="@dimen/img_height"
                                             android:layout_centerInParent="true"
-                                            android:src="@drawable/ic_launcher" />
+                                            android:src="@mipmap/ic_launcher" />
 
 
                                         <ProgressBar

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Quiz</string>
-    <string name="welcome_message">Welcome to Cricket Quiz</string>
+    <string name="welcome_message">Welcome to  Quiz</string>
     <string name="completed">Congratulations! \n You have completed the level.</string>
     <string name="not_completed">Oops! \n Level not completed.Play again! </string>
     <string name="select_level">Select Level</string>
@@ -109,4 +108,38 @@
     <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
 
     <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="app_name">চাকরি বাকরী</string>
+    <string name="tab_text_1">হোম</string>
+    <string name="tab_text_2">সরকারী</string>
+    <string name="tab_text_3">বেসরকারী</string>
+    <string name="tab_text_4">নোটিশ বোর্ড</string>
+    <string name="tab_text_5">হট জবস</string>
+    <string name="tab_text_6">জনপ্রিয়</string>
+    <string name="tab_text_7">Tab 2</string>
+    <string name="tab_text_8">Tab 2</string>
+    <string name="tab_text_9">Tab 2</string>
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="s"></string>
+    <string name="govt">সরকারী</string>
+    <string-array name="collage">
+        <item>test</item>
+    </string-array>
 </resources>

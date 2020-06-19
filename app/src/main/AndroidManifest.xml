@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.dreamtechdesignandstudio.quickquiz1"
+    package="com.sobkhobor.jobcircular"
     android:installLocation="auto">
 
     <uses-feature
@@ -23,30 +23,42 @@
         android:resizeable="true" />
 
     <application
-        android:name=".helper.AppController"
+        android:name="com.sobkhobor.jobcircular.helper.AppController"
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:usesCleartextTraffic="true"
-        android:theme="@style/AppTheme"
         android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".activity.SplashActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <service
+            android:name=".push.NotificationExtenderBareBonesExample"
+        android:permission="android.permission.BIND_JOB_SERVICE"
+        android:exported="false">
+        <intent-filter>
+            <action android:name="com.onesignal.NotificationExtender" />
+        </intent-filter>
+    </service>
+        <meta-data android:name="com.onesignal.NotificationOpened.DEFAULT" android:value="DISABLE" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".activity.ProfileActivity"></activity>
-        <activity android:name=".activity.LeaderBoardActivity"></activity>
-        <activity android:name=".activity.SignActivity">
+        <activity android:name="com.sobkhobor.jobcircular.activity.MainScreen"
+            android:theme="@style/AppTheme.GradientStatusBar"></activity>
+        <activity android:name="com.sobkhobor.jobcircular.activity.SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
+        <activity android:name="com.sobkhobor.jobcircular.activity.ProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.sobkhobor.jobcircular.activity.LeaderBoardActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.sobkhobor.jobcircular.activity.SignActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".activity.MainActivity"
+            android:name="com.sobkhobor.jobcircular.activity.MainActivity_quiz"
             android:screenOrientation="portrait">
+
+
 
         </activity>
 
@@ -58,11 +70,11 @@
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
         <activity
-            android:name=".activity.SettingActivity"
+            android:name="com.sobkhobor.jobcircular.activity.SettingActivity"
             android:label=""
             android:theme="@style/Theme.AppCompat.Light.Dialog" />
         <activity
-            android:name=".activity.InstructionActivity"
+            android:name="com.sobkhobor.jobcircular.activity.InstructionActivity"
             android:screenOrientation="portrait" />
 
         <provider
@@ -82,16 +94,12 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".activity.ReviewActivity" />
-        <activity android:name=".activity.AboutUs" /> <!-- Firebase Notifications -->
-        <service android:name=".service.MyFirebaseMessagingService">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service> <!-- ./Firebase Notifications -->
-        <activity android:name=".activity.BookmarkList" />
-        <activity android:name=".activity.PrivacyPolicy" />
-        <activity android:name=".activity.BookmarkPlay" />
+        <activity android:name="com.sobkhobor.jobcircular.activity.ReviewActivity" />
+        <activity android:name="com.sobkhobor.jobcircular.activity.AboutUs" /> <!-- Firebase Notifications -->
+        <!-- ./Firebase Notifications -->
+        <activity android:name="com.sobkhobor.jobcircular.activity.BookmarkList" />
+        <activity android:name="com.sobkhobor.jobcircular.activity.PrivacyPolicy" />
+        <activity android:name="com.sobkhobor.jobcircular.activity.BookmarkPlay" />
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
@@ -113,6 +121,75 @@
                 <data android:scheme="@string/fb_login_protocol_scheme" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.sobkhobor.jobcircular.activity.BookmarkActivity"
+            android:theme="@style/AppTheme.GradientStatusBar" />
+        <activity android:name="com.sobkhobor.jobcircular.activity.Main5Activity">
+
+        </activity> <!-- <activity -->
+        <!-- android:name=".activity.SplashActivity" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity android:name="com.sobkhobor.jobcircular.activity.Main2Activity" />
+        <activity
+            android:name="com.sobkhobor.jobcircular.activity.CategoryActivity"
+            android:theme="@style/AppTheme.GradientStatusBar" />
+        <activity
+            android:name="com.sobkhobor.jobcircular.activity.MainActivity3"
+            android:theme="@style/AppTheme.GradientStatusBar">
+
+        </activity>
+        <activity
+            android:name="com.sobkhobor.jobcircular.activity.FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sobkhobor.jobcircular.activity.ViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.GradientStatusBar" />
+        <activity
+            android:name="com.sobkhobor.jobcircular.activity.LaunchActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.GradientStatusBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sobkhobor.jobcircular.activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.GradientStatusBar" />
+
+        <service
+            android:name=".push.MyFirebaseMessagingService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.sobkhobor.jobcircular.push.FireBaseMessageService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service> <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/chakri_bakri" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

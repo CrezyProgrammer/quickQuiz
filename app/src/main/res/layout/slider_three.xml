@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:layout_marginTop="100dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto"
+        android:gravity="center_horizontal"
+        android:text="03/03"
+        android:textColor="@color/text_color"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/hind_siliguri_bold"
+        android:gravity="center_horizontal"
+        android:text="সহজবোধ্য ব্যবহার"
+        android:textColor="@color/text_color"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/hind_siliguri"
+        android:gravity="center_horizontal"
+        android:text="অ্যাপটি ব্যবহার করে সহজে - ই পেয়ে যাবেন আপনার পছন্দের নিয়োগ বিজ্ঞাপনগুলি ।"
+        android:textColor="@color/text_color" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/ic_easy_use_01" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/download"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/fab_bg"
+            android:fontFamily="@font/heebo"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="শুরু করুন"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/colorPrimary"
+            app:cornerRadius="20dp"
+            app:icon="@drawable/ic_arrow_forward_black_24dp"
+            app:iconGravity="textEnd"
+            app:iconPadding="5dp"
+            app:iconTint="@color/white"
+            app:rippleColor="@android:color/white"
+            app:strokeColor="#E1883D"
+            app:strokeWidth="1dp" />
+    </RelativeLayout>
+
+</LinearLayout>

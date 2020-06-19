@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="white">#ffffff</color>
-    <color name="black">#000000</color>
 
-    <color name="colorPrimary">#6C9EFF</color>
-    <color name="colorPrimaryDark">#3f4565</color>
-    <color name="colorAccent">#6c9eff</color>
     <color name="txt_color">#393d5a</color>
     <color name="right_dark">#ed2a2a</color>
     <color name="right_light">#e9605f</color>
@@ -18,7 +13,15 @@
     <color name="color_orange">#FF725F</color>
 
     <!--background color of lifeline bg nd main page bottom bg colors-->
+    <color name="colorPrimary">#E1883D</color>
+    <color name="colorPrimaryDark">#E1883D</color>
+    <color name="colorAccent">#E91E63</color>
 
+    <color name="black_overlay">#66000000</color>
+    <color name="white">#fff</color>
+    <color name="transperent">#00F44336</color>
+    <color name="text_color">#5A5A5A</color>
+    <color name="red">#FF4343</color>
     <color name="dark_red">#ff634e</color>
     <color name="light_red">#ff9081</color>
     <color name="dark_orange">#ff9646</color>
@@ -26,5 +29,6 @@
     <color name="dark_sky">#4a88ff</color>
     <color name="light_sky">#8eb5ff</color>
     <color name="dark_blue">#3f4565</color>
+    <color name="black">#000000</color>
     <color name="light_blue">#606899</color>
 </resources>
