@@ -190,7 +190,7 @@
         android:fitsSystemWindows="true"
         android:visibility="visible"
         app:headerLayout="@layout/nav_header_home"
-        app:itemIconTint="@color/nav"
+        app:itemIconTint="@color/colorPrimary"
         app:menu="@menu/maindrawer" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

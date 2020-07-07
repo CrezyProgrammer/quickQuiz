@@ -13,8 +13,8 @@
     <color name="color_orange">#FF725F</color>
 
     <!--background color of lifeline bg nd main page bottom bg colors-->
-    <color name="colorPrimary">#E1883D</color>
-    <color name="colorPrimaryDark">#E1883D</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#03A9F4</color>
     <color name="colorAccent">#E91E63</color>
 
     <color name="black_overlay">#66000000</color>

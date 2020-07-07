@@ -42,7 +42,7 @@ android {
     defaultConfig {
 
         manifestPlaceholders = [
-                onesignal_app_id: 'a03422d9-ce17-4d93-9a11-a4cb06107a38',
+                onesignal_app_id: '5b29a900-c751-448f-bdde-438dc6566f32',
                 // Project number pulled from dashboard, local value is ignored.
                 onesignal_google_project_number: 'REMOTE'
         ]
@@ -51,8 +51,8 @@ android {
         applicationId "com.sobkhobor.jobcircular"
         minSdkVersion 21
         targetSdkVersion 29
-        versionCode 4
-        versionName "1.0"
+        versionCode 6
+        versionName "1.0.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
         signingConfig signingConfigs.rel
@@ -83,7 +83,7 @@ dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'androidx.multidex:multidex:2.0.1'
-    implementation 'com.google.android.gms:play-services-ads:19.0.1'
+    implementation 'com.google.android.gms:play-services-ads:19.2.0'
     implementation 'com.google.android.gms:play-services-plus:17.0.0'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'com.google.android.gms:play-services-games:19.0.0'
@@ -92,7 +92,6 @@ dependencies {
     implementation 'com.android.volley:volley:1.1.1'
     implementation 'com.jakewharton:butterknife:10.2.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.0'
-    // Add the itextpdf dependency:
     implementation 'com.itextpdf:itextpdf:5.5.13'
     implementation 'com.facebook.android:facebook-login:5.12.1'
     implementation 'com.google.android.play:core:1.6.5'
@@ -118,7 +117,7 @@ dependencies {
     implementation "androidx.core:core-ktx:+"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-
+    implementation 'com.github.Chrisvin:LiquidSwipe:1.3'
     implementation 'com.onesignal:OneSignal:[3.13.0, 3.99.99]'
 }
 apply plugin: 'com.google.gms.google-services'

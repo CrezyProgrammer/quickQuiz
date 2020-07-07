@@ -102,10 +102,10 @@
     <string name="font_size">Font Size</string>
 
     <!--Ad Mob Id-->
-    <string name="adAppId">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="adAppId">ca-app-pub-9045865904799287~4880070908</string>
     <string name="admob_Rewarded_Video_Ads">ca-app-pub-3940256099942544/5224354917</string>
-    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_id">ca-app-pub-9045865904799287/2062335879</string>
+    <string name="admob_banner_id"> ca-app-pub-9045865904799287/3535199642</string>
 
     <!-- TODO: Remove or change this placeholder text -->
 
